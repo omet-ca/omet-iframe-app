@@ -1,0 +1,15 @@
+{
+  "name": "OmetIframeApp",
+  "category": null,
+  "title": {
+    "en_EN": "OmetIframeApp",
+    "fr_FR": "Mon app Iframe"
+  },
+  "description": {
+    "en_EN": "OmetIframeApp",
+    "fr_FR": "Mon app Iframe"
+  },
+  "files": [
+    "main.js"
+  ]
+}

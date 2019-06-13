@@ -1,0 +1,45 @@
+{
+  "name": "@omet/iframe-app",
+  "version": ".1",
+  "description": "OMET iframe app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint *.js",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "prepublishOnly": "npm run eslint && rm -rf ./dist/* && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omet-ca/omet-iframe-app.git"
+  },
+  "keywords": [
+    "osjs", "omet"
+  ],
+  "files": [
+    "dist/",
+    "metadata.json"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-transform-runtime": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/runtime": "^7.4.3",
+    "babel-loader": "^8.0.0-beta.4",
+    "copy-webpack-plugin": "^5.0.2",
+    "eslint": "^5.16.0",
+    "hyperapp": "^1.2.0",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0"
+  },
+  "author": "Anders Evenrud <andersevenrud@gmail.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/omet-ca/omet-iframe-app/issues"
+  },
+  "homepage": "https://github.com/omet-ca/omet-iframe-app#readme",
+  "osjs": {
+    "type": "package"
+  }
+}
